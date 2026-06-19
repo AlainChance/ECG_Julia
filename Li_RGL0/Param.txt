@@ -1,0 +1,7 @@
+1
+4
+7
+6
+Fortran_basis_terms
+RGL0
+-7.477452

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (this repository, via the DOI below) and the accompanying paper (see preferred-citation)."
+title: "ECG_Julia: An open, modular Julia implementation of the explicitly correlated Gaussian (ECG) method"
+abstract: "Open, modular implementation in the Julia programming language of the variational method of explicitly correlated Gaussians (ECGs) for non-relativistic, finite-nuclear-mass atomic and molecular bound-state calculations, including fully non-Born–Oppenheimer (non-BO) calculations in which nuclei and electrons are treated on the same footing."
+type: software
+authors:
+  - given-names: Alain
+    family-names: Chancé
+    affiliation: "MOLKET SAS"
+    orcid: "https://orcid.org/0009-0004-3619-2267"
+version: "1.0.0"
+date-released: "2026-06-18"
+license: MIT
+repository-code: "https://github.com/AlainChance/ECG_Julia"
+url: "https://github.com/AlainChance/ECG_Julia"
+keywords:
+  - "explicitly correlated Gaussians"
+  - "ECG"
+  - "quantum chemistry"
+  - "non-Born-Oppenheimer"
+  - "finite nuclear mass"
+  - "variational method"
+  - "Julia"
+doi: "10.5281/zenodo.20751204"
+preferred-citation:
+  type: article
+  title: "Atomic and Molecular Calculations with Explicitly Correlated Gaussians: An Efficient Open Implementation in Julia"
+  authors:
+    - given-names: Alain
+      family-names: Chancé
+      affiliation: "MOLKET SAS"
+      orcid: "https://orcid.org/0009-0004-3619-2267"
+  year: 2026
+  doi: "10.5281/zenodo.20751304"

@@ -1,0 +1,80 @@
+{
+    "setup": {
+        "copy": [
+            "../N_matrices/YCoeff.txt",
+            "../N_matrices/YHYCoeff.txt",
+            "../N_matrices/YHYMatr.txt",
+            "../N_matrices/YMatr.txt"
+        ],
+        "clean": [
+            "swapfile.dat",
+            "NonlinParam_F90.txt",
+            "H_90.txt",
+            "S_90.txt"
+        ]
+    },
+    "ECG_Param": {
+        "verbose": 1,
+        "compute_H_S_method": "basis terms",
+        "MatElem_method": "N_Matrix_operations",
+        "do_Fortran": false,
+        "max_print_H": 30,
+        "all_real": "T"
+    },
+    "param0": {
+        "name": "N atom (N_matr smoke test)",
+        "npart": 8,
+        "cbs": 3,
+        "NumYHYTerms": 5040,
+        "ntrials": 1,
+        "ApproxEnergy": -53.9479,
+        "TargetEnergy": -54.589199,
+        "MaxEnergyEval": 3,
+        "seed": 0,
+        "nlp0": false,
+        "coeff_nlp": 0.35,
+        "shuffle_NonlinParam": true,
+        "condition_max": 0.0,
+        "overlap_threshold": 0.98,
+        "nlp_threshold": 65.0,
+        "dist_diagH_threshold": 0.0,
+        "dist_func_threshold": 0.0,
+        "coeff_threshold": 960.0,
+        "coeff_ramp_tol": 0.05,
+        "analytic_grad": false,
+        "gen_NonlinParam": false,
+        "RG_p1": 0.7,
+        "RG_s1": 1.0,
+        "RG_s2": 3.0
+    },
+    "actions": [
+        {
+            "Kstart": 9,
+            "Kstep": 1,
+            "Kstop": 9,
+            "MaxEnergyEval": 2,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 0.35,
+            "nfa": 9,
+            "nfo": 1,
+            "nlp0": false,
+            "ntrials": 1,
+            "seed": 1111,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 1,
+            "Kstep": 1,
+            "Kstop": 1,
+            "MaxEnergyEval": 1,
+            "Type": "CHECK",
+            "coeff_nlp": 0.35,
+            "nfa": 1,
+            "nfo": 1,
+            "nlp0": false,
+            "ntrials": 1,
+            "seed": null,
+            "solver_type": "G"
+        }
+    ]
+}

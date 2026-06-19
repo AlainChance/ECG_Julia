@@ -1,0 +1,31 @@
+{
+    "upload_type": "software",
+    "title": "ECG_Julia: An open, modular Julia implementation of the explicitly correlated Gaussian (ECG) method",
+    "description": "Open, modular implementation in the Julia programming language of the variational method of explicitly correlated Gaussians (ECGs) for non-relativistic, finite-nuclear-mass atomic and molecular bound-state calculations, including fully non-Born-Oppenheimer (non-BO) calculations in which nuclei and electrons are treated on the same footing. See the accompanying paper (related identifier below) and the repository README.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "creators": [
+        {
+            "name": "Chancé, Alain",
+            "affiliation": "MOLKET SAS",
+            "orcid": "0009-0004-3619-2267"
+        }
+    ],
+    "keywords": [
+        "explicitly correlated Gaussians",
+        "ECG",
+        "quantum chemistry",
+        "non-Born-Oppenheimer",
+        "finite nuclear mass",
+        "variational method",
+        "Julia"
+    ],
+    "related_identifiers": [
+        {
+            "relation": "isSupplementTo",
+            "identifier": "10.5281/zenodo.20751304",
+            "scheme": "doi",
+            "resource_type": "publication-preprint"
+        }
+    ]
+}

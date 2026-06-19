@@ -1,0 +1,136 @@
+{
+    "setup": {
+        "copy": [
+            "../Ps2_matrices/YCoeff.txt",
+            "../Ps2_matrices/YHYCoeff.txt",
+            "../Ps2_matrices/YHYMatr.txt",
+            "../Ps2_matrices/YMatr.txt"
+        ],
+        "clean": [
+            "swapfile.dat",
+            "NonlinParam_F90.txt",
+            "H_90.txt",
+            "S_90.txt"
+        ]
+    },
+    "ECG_Param": {
+        "verbose": 1,
+        "compute_H_S_method": "basis terms",
+        "MatElem_method": "RGL1",
+        "GSEPSolutionMethod": "G",
+        "do_GSEPIIS": false,
+        "do_Fortran": false,
+        "max_print_H": 4,
+        "overlap_Skl": false
+    },
+    "param0": {
+        "npart": 4,
+        "cbs": 6,
+        "NumYHYTerms": 8,
+        "ntrials": 1,
+        "ApproxEnergy": -0.3345,
+        "TargetEnergy": -0.3345,
+        "MaxEnergyEval": 100,
+        "seed": 0,
+        "nlp0": true,
+        "coeff_nlp": 1.47,
+        "shuffle_NonlinParam": true,
+        "condition_max": 0.0,
+        "overlap_threshold": 0.98,
+        "nlp_threshold": 0.0,
+        "dist_diagH_threshold": 0.0,
+        "dist_func_threshold": 0.0,
+        "Max_Frac_Of_Trial_Fails_Allowed": 0.55,
+        "Max_Energy_Fails_Allowed": 15,
+        "gen_NonlinParam": false,
+        "RG_p1": 0.7,
+        "RG_s1": 1.0,
+        "RG_s2": 3.0
+    },
+    "actions": [
+        {
+            "Kstart": 101,
+            "Kstep": 1,
+            "Kstop": 101,
+            "MaxEnergyEval": 200,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 1.47,
+            "nfa": 101,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": 4444,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 102,
+            "Kstep": 1,
+            "Kstop": 102,
+            "MaxEnergyEval": 200,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 1.47,
+            "nfa": 102,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": 4444,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 103,
+            "Kstep": 1,
+            "Kstop": 103,
+            "MaxEnergyEval": 200,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 1.47,
+            "nfa": 103,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": 4444,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 104,
+            "Kstep": 1,
+            "Kstop": 104,
+            "MaxEnergyEval": 200,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 1.47,
+            "nfa": 104,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": 4444,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 105,
+            "Kstep": 1,
+            "Kstop": 105,
+            "MaxEnergyEval": 200,
+            "Type": "BASIS_ENL",
+            "coeff_nlp": 1.47,
+            "nfa": 105,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": 4444,
+            "solver_type": "G"
+        },
+        {
+            "Kstart": 1,
+            "Kstep": 1,
+            "Kstop": 1,
+            "MaxEnergyEval": 1,
+            "Type": "CHECK",
+            "coeff_nlp": 1.47,
+            "nfa": 1,
+            "nfo": 1,
+            "nlp0": true,
+            "ntrials": 1,
+            "seed": null,
+            "solver_type": "G"
+        }
+    ]
+}

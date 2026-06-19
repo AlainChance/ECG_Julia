@@ -1,0 +1,7 @@
+1
+8
+3
+5040
+Fortran_basis_terms
+N_C_Pvec
+-49.0
