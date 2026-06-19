@@ -21,7 +21,7 @@ keywords:
   - "finite nuclear mass"
   - "variational method"
   - "Julia"
-doi: "10.5281/zenodo.20751204"
+doi: "10.5281/zenodo.20761167"
 preferred-citation:
   type: article
   title: "Atomic and Molecular Calculations with Explicitly Correlated Gaussians: An Efficient Open Implementation in Julia"

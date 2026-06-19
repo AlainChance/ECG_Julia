@@ -4,7 +4,7 @@
 
 📄 **Full paper:** [docs/ECG_Julia_paper.pdf](docs/ECG_Julia_paper.pdf)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20751204.svg)](https://doi.org/10.5281/zenodo.20751204)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20761167.svg)](https://doi.org/10.5281/zenodo.20761167)
 
 `ECG_Julia` is an open, modular implementation in the [Julia](https://julialang.org) programming language of the variational method of **explicitly correlated Gaussians (ECGs)** for non-relativistic, finite-nuclear-mass atomic and molecular bound-state calculations — including fully **non-Born–Oppenheimer (non-BO)** calculations in which nuclei and electrons are treated on the same footing.
 
